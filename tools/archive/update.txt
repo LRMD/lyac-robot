@@ -1,0 +1,5 @@
+UPDATE logs, participants SET logs.participantID=participants.callsignID WHERE logs.participantID=participants.participantID;
+ALTER TABLE logs CHANGE participantID callsignID SMALLINT;
+DROP FUNCTION callID;
+DROP FUNCTION memberID;
+DROP TABLE participants;

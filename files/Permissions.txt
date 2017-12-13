@@ -1,0 +1,32 @@
+File Permissions
+Never allow more access to a file than is absolutely necessary.
+
+user, group, other
+read, write, execute
+
+Directories or Folders
+chmod 755 xxx
+
+Static Content (.html, .htm, .jpeg, .jpg, .gif, .png, .css, .js, .mpeg, .mgp, .mp3, .avi, .txt, .doc, .pdf)
+chmod 644 index.html
+
+Dynamic Content (.php, .php4, .php5, .cgi, .pl, .py, .rb)
+chmod 700 script.php
+
+Shell Scripts to Set Basic Permissions
+
+This one looks for files with specific suffixes and changes them to a permissions level of 644.
+find . -type f \ \( -iname "*.css" \ -or -iname "*.htm*" \ -or -iname "*.jpeg" \ -or -iname "*.jpg" \ -or -iname "*.gif" \ -or -iname "*.png" \ -or -iname "*.js" \ -or -iname "*.mpeg" \ -or -iname "*.mpg" \ -or -iname "*.mp3" \ -or -iname "*.avi" \ -or -iname "*.txt" \ -or -iname "*.doc" \ -or -iname "*.pdf" \ \) -exec chmod 644 {} \;
+find . -type f -iregex ".*\(css\|html\|htm\|jpg\|gif\|png\|js\|mpeg\|mpg\|mp3\|avi\|txt\|doc\|pdf\)$"  -exec ls -l {} \;
+find . -type f -iregex ".*\(css\|html\|htm\|jpg\|gif\|png\|js\|mpeg\|mpg\|mp3\|avi\|txt\|doc\|pdf\)$" -exec chmod 644 {} \;
+
+This one looks for dynamic files (e.g., PHP scripts); it changes the ones it finds to a permissions level of 700.
+find . -type f \ \( -iname "*.php*" \ -or -iname "*.cgi" \ -or -iname "*.pl" \ -or -iname "*.py" \ -or -iname "*.rb" \ \) -exec chmod 700 {} \;
+find . -type f -iregex ".*\(php\|cgi\|pl\|py\|rb\)$" -exec ls -l {} \;
+find . -type f -iregex ".*\(php\|cgi\|pl\|py\|rb\)$" -exec chmod 700 {} \;
+
+Here is a handy script to change all directories on your filesystem to a permissions level of 755.
+find . -type d -exec chmod 755 {} \;
+find . -type d -exec ls - -dl {} \;
+find . -type d -exec chmod 755 {} \;
+

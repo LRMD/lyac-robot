@@ -1,0 +1,118 @@
+Cabrillo QSO template for ARRL VHF contests and CQ VHF Contest
+                              --------info sent------- -------info rcvd--------
+QSO: freq  mo date       time call              grid   call              grid 
+QSO: ***** ** yyyy-mm-dd nnnn *************     ****** *************     ******
+QSO:    50 PH 1997-09-13 1804 NJ2L              FN12fr KB2DMK            FN12
+0000000001111111111222222222233333333334444444444555555555566666666667777777777
+1234567890123456789012345678901234567890123456789012345678901234567890123456789
+
+Example CQ VHF Contest log 
+
+START-OF-LOG: 2.0
+CONTEST: CQ-VHF
+CALLSIGN: W1XX
+CATEGORY: SINGLE-OP ALL HIGH
+CATEGORY-ASSISTED: NON-ASSISTED
+CLAIMED-SCORE: 3
+NAME: John Lindholm
+ADDRESS: 44 Longlane Rd
+ADDRESS: W Hartford, CT 06117
+QSO:    50 PH 2002-07-20 2220 W1XX              FN31   NC1I              FN32
+QSO:   144 PH 2002-07-20 2220 W1XX              FN31   NC1I              FN32
+END-OF-LOG:
+
+Example ARRL VHF Contest log
+
+START-OF-LOG: 2.0
+ARRL-SECTION: WNY
+CONTEST: ARRL-VHF-SEP
+CALLSIGN: NJ2L
+CATEGORY: SINGLE-OP ALL HIGH
+CATEGORY-ASSISTED: NON-ASSISTED
+CLAIMED-SCORE: 20805
+CLUB: Rochester VHF Group
+NAME: Rus Healy
+ADDRESS: 5960 Canadice Hill Road
+ADDRESS: Springwater, NY 14560
+SOAPBOX: What a great contest!
+QSO:    50 PH 1997-09-13 1804 NJ2L              FN12fr KB2DMK            FN12
+QSO:   144 PH 1997-09-13 2014 NJ2L              FN12fr VE3VRQ            FN13
+QSO:   144 PH 1997-09-13 2019 NJ2L              FN12fr KF2TV             FN13
+QSO:   144 PH 1997-09-13 2020 NJ2L              FN12fr NA2X              FN13
+QSO:   144 PH 1997-09-13 2025 NJ2L              FN12fr N2PSH             FN13
+QSO:   144 PH 1997-09-13 2025 NJ2L              FN12fr NT2W              FN24
+QSO:    50 PH 1997-09-13 2027 NJ2L              FN12fr VE3FHU            FN25
+QSO:   144 PH 1997-09-13 2027 NJ2L              FN12fr VE3FHU            FN25
+QSO:   222 PH 1997-09-13 2029 NJ2L              FN12fr VE3FHU            FN25
+QSO:   144 PH 1997-09-13 2036 NJ2L              FN12fr KB3PW             FN13
+QSO:    50 PH 1997-09-13 2037 NJ2L              FN12fr KB3PW             FN13
+QSO:   222 PH 1997-09-13 2038 NJ2L              FN12fr KB3PW             FN13
+QSO:   432 PH 1997-09-13 2039 NJ2L              FN12fr KB3PW             FN13
+QSO:   144 PH 1997-09-13 2044 NJ2L              FN12fr KB2YWU            FN13
+QSO:   144 PH 1997-09-13 2048 NJ2L              FN12fr K2IWR             FN12
+QSO:   144 PH 1997-09-13 2048 NJ2L              FN12fr WA2AEY            FN23
+QSO:    50 PH 1997-09-13 2049 NJ2L              FN12fr WA2AEY            FN23
+QSO:   432 PH 1997-09-13 2050 NJ2L              FN12fr WA2AEY            FN23
+QSO:   144 PH 1997-09-13 2051 NJ2L              FN12fr W2FE              FN13
+QSO:   144 PH 1997-09-13 2051 NJ2L              FN12fr K2OEQ             FN13
+QSO:    50 PH 1997-09-13 2053 NJ2L              FN12fr K2OEQ             FN13
+QSO:   144 PH 1997-09-13 2059 NJ2L              FN12fr KA2CKI/R          FN24
+QSO:   902 PH 1997-09-13 2101 NJ2L              FN12fr K2OEQ             FN13
+QSO:    50 PH 1997-09-13 2107 NJ2L              FN12fr KA2CKI/R          FN24
+QSO:   222 PH 1997-09-13 2108 NJ2L              FN12fr KA2CKI/R          FN24
+QSO:   432 PH 1997-09-13 2110 NJ2L              FN12fr KA2CKI/R          FN24
+QSO:   902 CW 1997-09-13 2115 NJ2L              FN12fr KA2CKI/R          FN24
+QSO:   1.2 CW 1997-09-13 2117 NJ2L              FN12fr KA2CKI/R          FN24
+QSO:   144 PH 1997-09-13 2134 NJ2L              FN12fr W2SAG             FN02
+QSO:    50 PH 1997-09-13 2135 NJ2L              FN12fr W2SAG             FN02
+QSO:   222 PH 1997-09-13 2137 NJ2L              FN12fr W2SAG             FN02
+QSO:   432 PH 1997-09-13 2138 NJ2L              FN12fr W2SAG             FN02
+QSO:   144 PH 1997-09-13 2140 NJ2L              FN12fr VE2QQ/3           FN13
+QSO:   144 PH 1997-09-13 2142 NJ2L              FN12fr N1MU              FN13
+QSO:   144 PH 1997-09-13 2155 NJ2L              FN12fr N2WVK             FN13
+QSO:    50 PH 1997-09-13 2156 NJ2L              FN12fr N2WVK             FN13
+QSO:    50 PH 1997-09-13 2157 NJ2L              FN12fr KB2YWU            FN13
+QSO:   144 PH 1997-09-13 2201 NJ2L              FN12fr N2VBK             FN02
+QSO:   902 PH 1997-09-13 2206 NJ2L              FN12fr N1MU              FN13
+QSO:   144 PH 1997-09-13 2208 NJ2L              FN12fr N2JQR             FN12
+QSO:    50 PH 1997-09-13 2210 NJ2L              FN12fr N2JQR             FN12
+QSO:   222 PH 1997-09-13 2211 NJ2L              FN12fr N2JQR             FN12
+QSO:   432 PH 1997-09-13 2218 NJ2L              FN12fr N2JQR             FN12
+QSO:   144 PH 1997-09-13 2220 NJ2L              FN12fr NC1I              FN32
+QSO:   222 CW 1997-09-13 2225 NJ2L              FN12fr NC1I              FN32
+QSO:   432 PH 1997-09-13 2227 NJ2L              FN12fr NC1I              FN32
+QSO:   432 PH 1997-09-13 2228 NJ2L              FN12fr KB2DMK            FN12
+QSO:   222 PH 1997-09-13 2229 NJ2L              FN12fr KB2DMK            FN12
+QSO:   144 PH 1997-09-13 2229 NJ2L              FN12fr KB2DMK            FN12
+QSO:   144 PH 1997-09-13 2232 NJ2L              FN12fr N2ULL             FN13
+QSO:    50 PH 1997-09-13 2233 NJ2L              FN12fr N2ULL             FN13
+QSO:   222 PH 1997-09-13 2234 NJ2L              FN12fr N2ULL             FN13
+QSO:   432 PH 1997-09-13 2234 NJ2L              FN12fr N2ULL             FN13
+QSO:   902 PH 1997-09-13 2240 NJ2L              FN12fr N2ULL             FN13
+QSO:   1.2 PH 1997-09-13 2241 NJ2L              FN12fr N2ULL             FN13
+QSO:   902 PH 1997-09-14 0130 NJ2L              FN12fr N2JQR             FN12
+QSO:   1.2 PH 1997-09-14 0131 NJ2L              FN12fr N2JQR             FN12
+QSO:   2.3 CW 1997-09-14 0134 NJ2L              FN12fr N2JQR             FN12
+QSO:   432 CW 1997-09-14 0137 NJ2L              FN12fr WA2BPE            FN12
+QSO:   3.4 CW 1997-09-14 0139 NJ2L              FN12fr N2JQR             FN12
+QSO:    50 CW 1997-09-14 0202 NJ2L              FN12fr K5MA/1            FN41
+QSO:   144 PH 1997-09-14 0207 NJ2L              FN12fr W2VO              FN23
+QSO:   222 PH 1997-09-14 0215 NJ2L              FN12fr VE2QQ/3           FN13
+QSO:   432 PH 1997-09-14 0216 NJ2L              FN12fr VE2QQ/3           FN13
+QSO:    50 PH 1997-09-14 0216 NJ2L              FN12fr VE2QQ/3           FN13
+QSO:   432 PH 1997-09-14 0220 NJ2L              FN12fr K2OS              FN13
+QSO:   1.2 PH 1997-09-14 0223 NJ2L              FN12fr K2OS              FN13
+QSO:   1.2 PH 1997-09-14 0224 NJ2L              FN12fr K2AN              FN02
+QSO:   902 PH 1997-09-14 0226 NJ2L              FN12fr K2AN              FN02
+QSO:   432 PH 1997-09-14 0227 NJ2L              FN12fr K2AN              FN02
+QSO:   222 PH 1997-09-14 0228 NJ2L              FN12fr K2AN              FN02
+QSO:   144 PH 1997-09-14 0229 NJ2L              FN12fr K2AN              FN02
+QSO:    50 PH 1997-09-14 0231 NJ2L              FN12fr K2AN              FN02
+QSO:   144 PH 1997-09-14 0250 NJ2L              FN12fr W6XR              FN12
+QSO:    50 PH 1997-09-14 0250 NJ2L              FN12fr W6XR              FN12
+[many QSO's omitted]
+END-OF-LOG:
+
+
+
+

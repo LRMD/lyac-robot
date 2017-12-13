@@ -1,0 +1,15 @@
+LT
+Sveiki,
+Gauta LY4TB LYAC ataskaita uþ 2012-01-03 144 MHz bangø ruoþo turà.
+Ataskaitos duomenys:
+QSO kiekis - 30
+Skirtingø keturþenkliø QRA lokatoriø kiekis - 12
+Bendras visø QSO QRB - 4120 km
+
+EN
+Hello,
+Received LY4TB report for 2012-01-03 144 MHz band NAC/LYAC tour.
+Report data:
+Number of QSO - 30
+Number of different 4-digit QRA locators - 12
+Total QRB score of QSO - 4120 km

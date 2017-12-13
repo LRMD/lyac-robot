@@ -1,0 +1,44 @@
+1. Belarus (BY) EUA-EWZ
+/^([Ee][U-Wu-w][a-zA-Z]?)\d/m
+
+2. Czech (CZ) OKA-OLZ
+/^([Oo][K-Lk-l][a-zA-Z]?)\d/m
+
+3. Denmark (DK) OUA-OZZ XPA-XPZ 5PA-5QZ
+/^([Oo][U-Zu-z][a-zA-Z]?|[Xx][Pp][a-zA-Z]?|5[P-Qp-q][a-zA-Z]?)\d/m
+ 
+4. Estonia (EE) ESA-ESZ
+/^([Ee][Ss][a-zA-Z]?)\d/m
+
+5. Finland (FI) OFA-OJZ
+/^([Oo][F-Jf-j][a-zA-Z]?)\d/m
+
+6. Germany (DE) DAA-DRZ Y2A-Y9Z
+/^([Dd][A-Ra-r][a-zA-Z]?|[Yy][2-9][a-zA-Z]?)\d/m
+
+7. Latvia (LV)  YLA-YLZ
+/^([Yy][Ll][a-zA-Z]?)\d/m
+
+8. Lithuania (LT) LYA-LYZ
+/^([Ll][Yy][a-zA-Z]?)\d/m
+
+9. Norway (NO) JWA-JXZ LAA-LNZ 3YA-3YZ
+/^([Jj][W-Xw-x][a-zA-Z]?|[Ll][A-Na-n][a-zA-Z]?|3[Yy][a-zA-Z]?)\d/m
+
+10.Poland (PL) HFA-HFZ SNA-SRZ 3ZA-3ZZ
+/^([Hh][Ff][a-zA-Z]?|[Ss][N-Rn-r][a-zA-Z]?|3[Zz][a-zA-Z]?)\d/m
+
+11. Russia (RU) RAA-RZZ UAA-UIZ
+/^([Rr][a-zA-Z]?[a-zA-Z]?|[Uu][A-Ia-i][a-zA-Z]?)\d/m
+
+12. Slovakia (SK) OMA-OMZ
+/^([Oo][Mm][a-zA-Z]?)\d/m
+
+13. Sweden (SE)  SAA-SMZ 7SA-7SZ 8SA-8SZ
+/^([Ss][A-Ma-m][a-zA-Z]?|7[Ss][a-zA-Z]?|8[Ss][a-zA-Z]?)\d/m
+
+14. Ukraine (UA) EMA-EOZ URA-UZZ
+/^([Ee][M-Om-o][a-zA-Z]?|[Uu][R-Zr-z][a-zA-Z]?)\d/m
+
+http://rubular.com/
+http://www.binpress.com/tutorial/using-php-with-mysql-the-right-way/17

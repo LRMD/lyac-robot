@@ -1,0 +1,6 @@
+*.inc
+*.edi
+*.csv
+*.dump
+error_log
+score/*/*.zip

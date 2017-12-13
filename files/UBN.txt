@@ -1,0 +1,30 @@
+If you’re new to contesting, your first question is “what’s a UBN?”
+It’s a good question. Based upon some log review analytics, unverified
+contacts with other stations fall into these three categories:
+
+Unique: The callsign worked in the log was unique compared to all
+other logs submitted in the contest. This is one reason why it is
+important for all contesters to send in their log. Points, however,
+are not deducted for unique calls in the log.
+
+Busted (sometimes called “bad”): are those callsigns that are valid,
+but not copied correctly. For example, putting K9JX in the log as an
+incorrect copy of my callsign K9JY means that your contact will not
+count and points are lost.
+
+Not-in-the-log: You claimed K9JY as a contact, but K9JY’s log doesn’t
+have you in it. Since there wasn’t a two-way confirmation of the
+contact, it was removed from your score.
+
+UBN reports are provided to you after the contest committee has
+reviewed the logs from the contest. Not all contests participate,
+however, but the major CQ Magazine and ARRL Contests provide this
+service.
+
+UBN reports constitute a major measure of the accuracy of your log.
+The higher your accuracy, the higher your score given the number of
+contacts.
+
+Reviewing your UBN report — and trending it over time — will give you
+a good indication on how accurate your logging is and which direction
+it is heading.
