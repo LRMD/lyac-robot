@@ -5,12 +5,12 @@ require_once "Mail.php";
 require_once ("Mail/mime.php");
 // the mail server, username, password, and port
 require_once 'smtp.inc';
+
+/*
 function sendMessage($to, $subject, $body)  {
-//  $to = "lrmd-lyac@qrz.lt";
-//  $cc = "";
+  $to = "lrmd-lyac@qrz.lt";
+  $cc = "";
   $bcc = "ly2en@qrz.lt";
-// Configure the mailer (SMTP) mechanism
-// Identify the mail server, username, password, and port
   $smtp = Mail::factory("smtp",
     array(
       "host"     => "ssl://" . SMTP_HOST,
@@ -20,12 +20,11 @@ function sendMessage($to, $subject, $body)  {
       "port"     => SMTP_PORT,
     )
   );
-// Set up the mail headers
   $headers = array(
     "From"    => "owner-lrmd-lyac@qrz.lt",
     "To"      => $to,
-//    "Cc"      => $cc,
-//    "Bcc"     => $bcc,
+    "Cc"      => $cc,
+    "Bcc"     => $bcc,
     "Subject" => $subject,
     "Errors-To"     => "ly2en@qrz.lt",
     "MIME-Version"  => "1.0",
