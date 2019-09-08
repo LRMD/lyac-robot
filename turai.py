@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import datetime
 
-year = 2016
+year = 2019
 
 def round_name(week):
   return {
