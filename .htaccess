@@ -1,0 +1,1 @@
+RewriteRule ^.*\.(inc)$ - [F,L,NC]

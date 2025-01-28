@@ -231,13 +231,9 @@ for ($msg = 1; $msg <= $num_msg; $msg++) {
         // Is LYAC date current year?
         $sql_date = $year . "-" . $month . "-" . $day;
         $sql_udate = gmdate('Y-m-d H:i:s', $udate); // GMT/UTC date/time
-        $query = "SELECT * FROM rounds WHERE date = '$sql_date';";
-        if (!($result = mysqli_query($db, $query))) {
-            die("Error " . mysqli_errno($db) . " : " . mysqli_error($db));
-        }
-        $num_results = mysqli_num_rows($result);
-        mysqli_free_result($result);
-        if ($num_results == 0) {
+        $round_id = get_round_id($sql_date);
+
+        if ($round_id == 0) {
             $reg1test_error = true; // reg1test attachment with error
             log_load($from, date(DATE_RFC822, $udate), $part, strlen($attachments[$part]), $num_QSOs, $callsign, $TDate, $band, $wwl, 'round error');
             // log_system('logs','warn',"\$sql_date: $sql_date, \$sql_udate: $sql_udate");
