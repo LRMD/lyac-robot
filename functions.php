@@ -217,6 +217,18 @@ function getRound($year, $month, $day, $day_of_week) {
   if (getFirstDay($year, $month, $day_of_week) + 28 == $day) return 5;
   return FALSE;
 }
+
+# function to get round id:
+# pass date, get round_id: 1, 2, 3 or 4
+# if date is not tuesday, get 0
+function get_round_id($date) {
+    $dt = strtotime($date);
+    $tue = (date('D', $dt) === 'Tue');
+    $week = ceil(date('j',$dt) / 7);
+    if ($week > 4) return 0;
+    return $tue * $week;
+}
+
 function EmptyDir($dir) {
   $handle=opendir($dir);
     while (($file = readdir($handle))!==false) {
